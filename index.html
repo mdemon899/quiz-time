@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Time</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <script src="/JS/script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/Images/favicon.ico" type="image/x-icon">
+</head>
+
+<body class="">
+    <main class="main">
+        <!-- Result Page Section Start -->
+        <section class="result-page">
+            <div class="logo-container">
+                <img src="/assets/Images/quiz-logo.svg" alt="quiz-logo">
+                <p>Result</p>
+            </div>
+            <div class="result-bar-container">
+                <div class="result-bar-value"></div>
+                <div class="green-result-icon-container">
+                    <img src="/assets/Images/green-result-icon.svg" alt="green-result-icon" class="green-result-icon">
+                    <p>70%</p>
+                </div>
+                <div class="red-result-icon-container">
+                    <img src="/assets/Images/red-result-icon.svg" alt="red-result-icon" class="red-result-icon">
+                    <p>30%</p>
+                </div>
+                <p class="result-score">22/25</p>
+            </div>
+            <p class="result-quote">“Keep learning, you have a good score!”</p>
+            <button class="retry-btn">Retry >>> </button>
+            <div class="icons-container">
+                <p>Share your score:</p>
+                <div class="icons">
+                    <a href="" class="linkedIn-icon">
+                        <img src="/assets/Images/linkedIn-icon.svg" alt="linkedIn-icon">
+                    </a>
+                    <a href="" class="twitter-icon">
+                        <img src="/assets/Images/twitter-icon.svg" alt="twitter-icon">
+                    </a>
+                    <a href="" class="instagram-icon">
+                        <img src="/assets/Images/instagram-icon.svg" alt="instagram-icon">
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Result Page Section End -->
+
+        <!-- Quiz Page Section Start -->
+        <section class="quiz-page">
+            <div class="top-section">
+                <div class="quiz-page-logo">
+                    <img class="quiz-logo" src="assets/Images/quiz-logo.svg" alt="quiz-logo">
+                </div>
+                <div class="volume-icon-container mute">
+                    <img src="assets/Images/mute-icon.svg" alt="mute-icon" class="mute-icon">
+                    <img src="/assets/Images/volume-icon.svg" alt="volume-icon" class="volume-icon">
+                </div>
+            </div>
+            <div class="quiz_container">
+                <div class="current-quiz">
+                    <p>02/25</p>
+                </div>
+                <h2 id="question_text"></h2>
+                <div class="quiz-time">
+                    <p></p>
+                </div>
+                <ul class="question-container">
+                    <li id="a" class="question"></li>
+
+                    <li id="b" class="question"></li>
+
+                    <li id="c" class="question"></li>
+
+                    <li id="d" class="question"></li>
+                </ul>
+            </div>
+            <p class="next-btn">Next ></p>
+        </section>
+        <!-- Quiz Page Section End -->
+
+        <!-- Home Page Section Start -->
+        <section class="home-page">
+            <div class="home-page-logo">
+                <img id="quiz-logo" src="assets/Images/quiz-logo.svg" alt="quiz-logo">
+            </div>
+            <button id="start-btn">Start Now >>></button>
+            <p class="already-played-score">Highest Score: 20/25</p>
+        </section>
+        <!-- Home Page Section End -->
+    </main>
+    <p class="footer-text">Made with ❤️ by Sakib Hassan</p>
+</body>
+
+</html>
